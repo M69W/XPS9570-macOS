@@ -236,9 +236,9 @@
 				<key>device-id</key>
 				<data>mz4AAA==</data>
 				<key>Comment-dpcd-max-link-rate</key>
-				<string>0x14 for 4k displays, or 0x0a for 1080p</string>
+				<string>0x0a for 1080p</string>
 				<key>dpcd-max-link-rate</key>
-				<data>FAAAAA==</data>
+				<data>CgAAAA==</data>
 				<key>enable-dpcd-max-link-rate-fix</key>
 				<data>AQAAAA==</data>
 				<key>Comment-fb-portcount</key>
@@ -395,6 +395,34 @@
 				<string>10.14.x</string>
 				<key>Replace</key>
 				<data>igKEwOtC</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALT: Set max link rate to 0x0A (HBR) for laptops with 1080p display for 10.14.4 (by FireWolf / bavariancake)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>SIPDBEiD+whysw==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AppleIntelCFLGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>gH3BAHUExkXBFA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALT: Set max link rate to 0x0A (HBR) for laptops with 1080p display for 10.14.3 and prior (by FireWolf)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>SIPDBEiD+why0A==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AppleIntelCFLGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>gH3BAHUExkXBCg==</data>
 			</dict>
 		</array>
 		<key>KextsToPatch</key>
