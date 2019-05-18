@@ -396,34 +396,6 @@
 				<key>Replace</key>
 				<data>igKEwOtC</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>ALT: Set max link rate to 0x0A (HBR) for laptops with 1080p display for 10.14.4 (by FireWolf / bavariancake)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>SIPDBEiD+whysw==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AppleIntelCFLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>gH3BAHUExkXBFA==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>ALT: Set max link rate to 0x0A (HBR) for laptops with 1080p display for 10.14.3 and prior (by FireWolf)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>SIPDBEiD+why0A==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AppleIntelCFLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>gH3BAHUExkXBCg==</data>
-			</dict>
 		</array>
 		<key>KextsToPatch</key>
 		<array/>
